@@ -35,14 +35,17 @@ Nav Styling
     list-style: none;
     color: #555555;
     width: 100%;
-    padding-left: 0;
-    padding-right:10%;
-    padding-top: 20%;
+    padding: 10% 10% 10% 0;
     font-family: Helvetica, sans-serif;
 }
 
 .nav ul li {
     padding-top: 8%;
+}
+
+.nav ul li:hover {
+    color: #999999;
+    background-color: #F7D358;
 }
 
 /*===============================================================================
@@ -66,3 +69,4 @@ Main Body Styling
     height: 500px;
     padding: 0;
 }
+
