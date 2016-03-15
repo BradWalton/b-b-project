@@ -6,14 +6,9 @@
 validate = function(){
     var fname = document.getElementById(fname);
     var lname = document.getElementById(lname);
-    var userName = document.getElementById(username);
+    var username = document.getElementById(username);
     var email = document.getElementById(email);
     var password = document.getElementById(password);
 
-    if (fname === "brad"){
-        console.log("Hey Brad");
-    }
-    else{
-
-    }
-}
+    console.log(fname);
+};
