@@ -4,11 +4,11 @@
 //Sign up Scripts
 
 validate = function(){
-    var fname = document.getElementById(fname);
-    var lname = document.getElementById(lname);
-    var username = document.getElementById(username);
-    var email = document.getElementById(email);
-    var password = document.getElementById(password);
+    var fname = document.getElementById("fname").value;
+    var lname = document.getElementById("lname").value;
+    var username = document.getElementById("username").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
 
-    console.log(fname);
 };
+
