@@ -10,4 +10,13 @@ function validate(){
     var email = document.getElementById(email).value;
     var password = document.getElementById(password).value;
     var confirmPassword = document.getElementById(confirmpassword).value;
+
+    if (firstName === "brad"){
+        console.log("Hey Brad")
+    }
+    else{
+
+    }
 }
+
+validate();
