@@ -5,6 +5,7 @@
     <title>DevHub: Sign Up</title>
 
     <link type="text/css" href="main.css" rel="stylesheet"/>
+    <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
     <div class="container">
@@ -21,22 +22,22 @@
 
         <div class="maincontainer">
             <form id="signup">
-                <label for="username">Username :</label>
+                <label for="userName">Username :</label>
                 <input type="text"
                        class="formcontrol"
-                       id="username"
+                       id="userName"
                        placeholder="eg: tech123"><br>
 
-                <label for="firstname">First Name :</label>
+                <label for="firstName">First Name :</label>
                 <input type="text"
                        class="formcontrol"
-                       id="firstname"
+                       id="firstName"
                        placeholder="eg: Ben"><br>
 
-                <label for="lastname">Last Name :</label>
+                <label for="lastName">Last Name :</label>
                 <input type="text"
                        class="formcontrol"
-                       id="lastname"
+                       id="lastName"
                        placeholder="eg: McLean"><br>
 
                 <label for="password">Password :</label>
@@ -45,13 +46,13 @@
                        id="password"
                        placeholder="eg: password123"><br>
 
-                <label for="confirmpassword">Confirm Password :</label>
+                <label for="confirmPassword">Confirm Password :</label>
                 <input type="password"
                        class="formcontrol"
-                       id="confirmpassword"
+                       id="confirmPassword"
                        placeholder="eg: password123"><br>
 
-                <input type="button" value="Submit" onclick= validate()>
+                <input type="button" value="Submit" onclick= "validate()">
             </form>
         </div>
         <div class="secondcontainer">
